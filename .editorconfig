@@ -507,6 +507,13 @@ dotnet_diagnostic.RCS1077.severity = error
 # Избегать двойного вызова методов получения данных
 dotnet_diagnostic.RCS1049.severity = error
 
+# Запретить var для локальных переменных
+dotnet_style_require_var_for_local_variables = false:error
+
+dotnet_style_require_var_when_type_is_apparent = false:error
+dotnet_style_require_var_when_type_is_not_apparent = false:error
+dotnet_style_require_var_for_built_in_types = false:error
+
 # Порядок использования using (систематизация кода)
 dotnet_diagnostic.SA1200.severity = error
 # Запрет пустых строк в начале методов
